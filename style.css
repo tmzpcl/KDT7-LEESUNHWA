@@ -8,7 +8,7 @@ body{
     /* background-image: url(./img/00bg.png); */
     background-repeat: no-repeat;
     background-position: center 0;
-    
+
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 16px;
     color:#3a3a4a;
@@ -32,14 +32,14 @@ body{
         left: 0;
         background: url("./img/bg_layout_l.png") no-repeat;
     }
-    
+
     #wrap:after {
         height: 390px;
         top: 47px;
         right: 0;
         background: url("./img/bg_layout_r.png") no-repeat;
     }
-    
+
     #wrap.no-bg:before,#wrap.no-bg:after {
         display: none
     }
@@ -54,32 +54,32 @@ h3{
     font-weight: 600;
 }
 
-#header{
+header{
     width: 1180px;
     height: auto;
     margin: auto;
 }
-#header .header__top{
+header .header__top{
     width: 100%;
     height: 46px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#header .header__top .header__zoom{    
+header .header__top .header__zoom{
     display: flex;
     align-items: center;
 }
-#header .header__top .header__zoom p{
+header .header__top .header__zoom p{
     display: flex;
     align-items: center;
     margin-right: 20px;
 }
-#header .header__top .header__zoom p em{
+header .header__top .header__zoom p em{
     font-size: 13px;
     margin-right: 4px;
 }
-#header .header__top .header__zoom p a{
+header .header__top .header__zoom p a{
     width: 20px;
     height: 20px;
     border-radius: 4px;
@@ -91,31 +91,31 @@ h3{
 }
 
 
-#header .header__top .header__usermenu{  
+header .header__top .header__usermenu{
 }
-#header .header__top .header__usermenu ul{  
+header .header__top .header__usermenu ul{
     display: flex;
     align-items: center;
 }
-#header .header__top .header__usermenu ul li{
+header .header__top .header__usermenu ul li{
     font-size: 13px;
     position: relative;
 }
-#header .header__top .header__usermenu ul li::after{
+header .header__top .header__usermenu ul li::after{
     content: "ㅣ";
     color:#e1e1e1;
 }
-#header .header__top .header__usermenu ul li:last-child::after{
+header .header__top .header__usermenu ul li:last-child::after{
     content: "";
 }
-#header .header__top .header__usermenu ul li:last-child{
+header .header__top .header__usermenu ul li:last-child{
     margin: 0 0 0 8px;
 }
-#header .header__top .header__usermenu ul li a{
+header .header__top .header__usermenu ul li a{
     display: inline-block;
     padding: 0 10px;
 }
-#header .header__top .header__usermenu ul li button{
+header .header__top .header__usermenu ul li button{
     background:#fff url(./img/arrow-navy-8x6.png) no-repeat top 7px right 0;
     border:0;
     outline:0;
@@ -123,42 +123,42 @@ h3{
     padding-right: 16px;
     cursor: pointer;
 }
-#header .header__top .header__usermenu ul li button:hover li{
+header .header__top .header__usermenu ul li button:hover li{
     border: 10px solid #121dfa;
 }
-#header .header__top .header__usermenu ul li:last-child button{
+header .header__top .header__usermenu ul li:last-child button{
     margin: 0;
     color:#d7021b;
 }
 
-#header .header__nav{
+header .header__nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
-#header .header__nav h1{}
-#header .header__nav h1 img{}
-#header .header__nav nav{
+header .header__nav h1{}
+header .header__nav h1 img{}
+header .header__nav nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#header .header__nav nav ul{
+header .header__nav nav ul{
     display: flex;
     align-items: center;
 }
-#header .header__nav nav ul li{
+header .header__nav nav ul li{
     font-size: 20px;
     font-weight: 800;
     padding: 0 30px;
 }
-#header .header__nav nav p{
+header .header__nav nav p{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#header .header__nav nav p input[type="text"]{
+header .header__nav nav p input[type="text"]{
     border:1px solid #ffffff;
     border-radius: 4px;
     padding: 0 15px;
@@ -167,7 +167,7 @@ h3{
     background: url(./img/ico-search-navy.png) no-repeat  top 4px right 0;
     cursor: pointer;
 }
-#header .header__nav nav p #nav__button{
+header .header__nav nav p #nav__button{
     background: url(./img/ico-menu-navy.png) no-repeat top 7px right 0;
     width: 32px;
     height: 32px;
@@ -176,7 +176,7 @@ h3{
     cursor: pointer;
     margin-left: 8px;
 }
-#header .header__nav nav p input[type="text"]:focus {
+header .header__nav nav p input[type="text"]:focus {
     border:1px solid #eee;
     padding: 0 15px;
     height: 32px;
@@ -184,19 +184,19 @@ h3{
     outline: 0;
     background-position: top 4px right 6px;
 }
-#header .header__nav nav p span{
+header .header__nav nav p span{
     font-size: 28px;
 }
 
 
 /* container **************************************************************/
-#container{ 
+#container{
 }
 #container .search{
     display: flex;
     justify-content: space-between;
     align-items: start;
-    padding-top: 58px;   
+    padding-top: 58px;
     width: 1180px;
     height: auto;
     margin: auto;
@@ -280,7 +280,7 @@ h3{
     padding: 0;
 }
 #container .visitor__menu .visitor__menu-title div p button:nth-child(2){
-    background-color: #ee0700;    
+    background-color: #ee0700;
     border: 1px solid #ee0700;
     color:#fff;
     border-radius: 20px;
@@ -289,7 +289,7 @@ h3{
 }
 #container .visitor__menu .visitor__menu-title div p button{
     width: 50%;
-    height: 32px;    
+    height: 32px;
     border: 0;
     color: #3a3a4a;
     font-size:15px;
@@ -322,7 +322,7 @@ h3{
     align-items: center;
 }
 #container .visitor__menu ul li{}
-#container .visitor__menu ul li a{ 
+#container .visitor__menu ul li a{
     width: 80px;
     height: 80px;
     line-height: 80px;
@@ -355,7 +355,7 @@ h3{
     height: auto;
     margin: 70px auto 0;
 }
-#container .banner__wrap div:nth-child(1){    
+#container .banner__wrap div:nth-child(1){
     display: flex;
     justify-content: start;
     align-items: center;
@@ -428,14 +428,14 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 52px;    
+    height: 52px;
     border-bottom: 1px solid #f18f91;
     padding: 0 36px;
 }
 #container .content__bg .content__grid .news-area ul li:last-child{
     border: 0;
 }
-#container .content__bg .content__grid .news-area ul li a{    
+#container .content__bg .content__grid .news-area ul li a{
     font-size: 19px;
     color: #fff;
     font-weight: 500;
@@ -478,7 +478,7 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 52px;    
+    height: 52px;
     border-bottom: 1px solid #82c7c1;
     padding: 12px 36px;
     font-weight: 500;
@@ -547,32 +547,61 @@ h3{
     align-items: center;
     flex-direction: column;
 }
-#container .content__bg .content__grid .main__policy div:nth-child(2) span{
+#container .content__bg .content__grid .main__policy div:nth-child(2) span.main__policy__list{
     text-align: center;
     height: 40px;
     position: relative;
     padding: 0 20px;
 }
-#container .content__bg .content__grid .main__policy div:nth-child(2) span a:hover{
+#container .content__bg .content__grid .main__policy div:nth-child(2) span.main__policy__list a:hover{
     font-size: 24px;
     line-height: 1;
     font-weight: 700;
 }
 
-#container .content__bg .content__grid .main__policy div:nth-child(2) span em{
+#container .content__bg .content__grid .main__policy div:nth-child(2) span.main__policy__list em{
     display: block;
     height: 12px;
     margin-top: -20px;
     width: 100%;
     padding: 0 20px;
 }
-#container .content__bg .content__grid .main__policy div:nth-child(2) span:hover em{
+#container .content__bg .content__grid .main__policy div:nth-child(2) span.main__policy__list:hover em{
     height: 12px;
     width: 100%;
     background-color: #fff;
 }
-
-
+#container .content__bg .content__grid .main__policy div:nth-child(2) span span.tooltips{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: -80px;
+    transform: translateX(-50%);
+    z-index: 100;
+    background-color: #44465c;
+    border-radius: 15px;
+    color: #fff;
+    padding: 12px 20px;
+    text-align: center;
+    box-shadow: 2px 5px 14px 0 #777;
+    text-wrap: nowrap;
+}
+#container .content__bg .content__grid .main__policy div:nth-child(2) span span.tooltips::after{
+    width: 16px;
+    height: 8px;
+    background: url(./img/edge-balloon.png) no-repeat center bottom;
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#container .content__bg .content__grid .main__policy div:nth-child(2) span span.tooltips span{
+    color: #ffea00;
+}
+#container .content__bg .content__grid .main__policy div:nth-child(2) span.main__policy__list:hover .tooltips{
+    display: block;
+}
 
 
 #container .content__bg .content__grid .banner__zone{
@@ -779,7 +808,7 @@ h3{
     justify-content: space-between;
 }
 #container .content__bg .content__grid .news__hiwell div:nth-child(2){
-    
+
 }
 
 #container .content__bg .content__grid .news__hiwell div:nth-child(2) ul{
@@ -825,35 +854,35 @@ h3{
 
 
 /* footer *****************************************************************/
-#footer{
+footer{
     background-color: #f6f6f6;
 
 }
-#footer .footbody{
+footer .footbody{
     width: 1180px;
     margin: auto;
     padding: 40px 0;
 }
-#footer .footbody .footbody__top ul{
+footer .footbody .footbody__top ul{
     display: flex;
     justify-content: space-between;
     align-items:flex-start
 }
-#footer .footbody .footbody__top ul li{
+footer .footbody .footbody__top ul li{
     display: flex;
     justify-content: space-between;
     align-items:flex-start
 }
-#footer .footbody .footbody__top ul li a{
+footer .footbody .footbody__top ul li a{
     color: #6c6d73;
     font-size: 13px;
     line-height: 40px;
     margin-right: 20px;
 }
-#footer .footbody .footbody__top ul li a.red{
+footer .footbody .footbody__top ul li a.red{
     color: #d7021b;
 }
-#footer .footbody .footbody__top ul li p{
+footer .footbody .footbody__top ul li p{
     width: 244px;
     height: 40px;
     background: #fff;
@@ -863,7 +892,7 @@ h3{
     border-radius: 5px;
     margin-left: 10px;
 }
-#footer .footbody .footbody__top ul li p button{
+footer .footbody .footbody__top ul li p button{
     width: 194px;
     height: 40px;
     background-color: #fff;
@@ -876,7 +905,7 @@ h3{
     background: url(./img/arrow-navy.png) no-repeat top 17px right 10px;
     cursor: pointer;
 }
-#footer .footbody .footbody__top ul li p a{
+footer .footbody .footbody__top ul li p a{
     width: 46px;
     height: 40px;
     border-left:1px solid #eee;
@@ -886,21 +915,21 @@ h3{
 }
 
 
-#footer .footbody .footbody__bottom{
+footer .footbody .footbody__bottom{
     margin-top: 50px;
     color: #6c6d73;
     font-size: 13px;
     line-height: 26px;
 }
-#footer .footbody .footbody__bottom ul{
+footer .footbody .footbody__bottom ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#footer .footbody .footbody__bottom ul li span{
+footer .footbody .footbody__bottom ul li span{
     display: block;
 }
-#footer .footbody .footbody__bottom ul li a{
+footer .footbody .footbody__bottom ul li a{
     margin-left: 10px;
 }
 
@@ -948,7 +977,7 @@ h3{
     font-size: 32px;
 }
 
-#nav-popup .all-menu-wrap .all-top ul {  
+#nav-popup .all-menu-wrap .all-top ul {
     display: flex;
     justify-content: end;
     align-items: center;
