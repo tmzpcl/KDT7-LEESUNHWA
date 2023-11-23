@@ -1,4 +1,5 @@
-작업 사이트 주소 : https://tmzpcl.github.io/leesunhwa/
+원본사이트 https://www.nhis.or.kr/nhis/index.do<br>
+클론 웹사이트 : https://tmzpcl.github.io/leesunhwa/<br><br>
 
 <h3>과제후기</h3>
 저는 grid를 사용할 수 있는 레이아웃을 가진 사이트를 대상으로 사이트를 선정하였습니다.
